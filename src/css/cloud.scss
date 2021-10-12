@@ -10,10 +10,10 @@
     animation: cloud1 10s infinite linear;  
 }
 .animation-slow{
-    animation: cloud1 20s infinite linear;  
+    animation: cloud2 20s infinite linear;  
 }
 .animation-slow-2{
-    animation: cloud1 15s infinite linear;  
+    animation: cloud2 15s infinite linear;  
 }
 
 
@@ -21,4 +21,8 @@
     from{transform: translate3d(-270px,0,0)}  
     to{transform: translate3d(2000px,0,0)}  
 }  
+@keyframes cloud2 {  
+    from{transform: translate3d(-650px,0,0)}  
+    to{transform: translate3d(2000px,0,0)}  
+} 
  

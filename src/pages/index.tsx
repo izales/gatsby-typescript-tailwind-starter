@@ -38,7 +38,7 @@ const IndexPage = ({
       <Seo title={seoTitle} description={seoDescription} />
     <Clouds></Clouds>
       
-    
+  
     
     </Layout>
   )
